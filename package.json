@@ -1,6 +1,6 @@
 {
   "name": "morgan-json-logger",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "logger to output http calls as json to stdout",
   "main": "src/index.js",
   "repository": {
