@@ -1,11 +1,14 @@
 {
-  "name": "morgan-json-logger",
+  "name": "@pedro-meza/morgan-json-logger",
   "version": "1.1.0",
   "description": "logger to output http calls as json to stdout",
   "main": "src/index.js",
   "repository": {
-    "type" : "git",
-    "url" : "git://github.com/pedro-meza/morgan-json-logger.git"
+    "type": "git",
+    "url": "https://github.com/pedro-meza/morgan-json-logger"
+  },
+  "publishConfig": {
+    "registry": "https://github.com/pedro-meza"
   },
   "scripts": {
     "test": "mocha --recursive ./src/**/*.spec.js"
