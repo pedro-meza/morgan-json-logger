@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "logger to output http calls as json to stdout",
   "main": "src/index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "git://github.com/pedro-meza/morgan-json-logger.git"
+  },
   "scripts": {
     "test": "mocha --recursive ./src/**/*.spec.js"
   },
@@ -11,8 +15,5 @@
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.0.1"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
   }
 }
