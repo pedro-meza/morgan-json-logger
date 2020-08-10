@@ -1,6 +1,6 @@
 {
-  "name": "@pedro-meza/morgan-json-logger",
-  "version": "1.1.0",
+  "name": "morgan-json-logger",
+  "version": "1.2.0",
   "description": "logger to output http calls as json to stdout",
   "main": "src/index.js",
   "repository": {
