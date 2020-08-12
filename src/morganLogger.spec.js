@@ -1,7 +1,7 @@
 const assert = require('assert');
 const expect = require('chai').expect;
 const should = require('chai').should();
-const MorganJsonLogger = require('./index');
+const { MorganJsonLogger } = require('./index');
 
 describe('Test morgan nodeJS logger', () => {
 
